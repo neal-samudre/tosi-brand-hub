@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Gelica';
+  src: url('/fonts/Gelica-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FilsonSoft';
+  src: url('/fonts/FilsonSoft-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FilsonSoft';
+  src: url('/fonts/FilsonSoft-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FilsonSoft';
+  src: url('/fonts/FilsonSoft-Heavy.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --surface-0: #FFFFFF;
+  --surface-1: #F8F9FA;
+  --surface-2: #F1F3F5;
+  --surface-3: #E9ECEF;
+  --border-subtle: rgba(0, 0, 0, 0.06);
+  --border-default: rgba(0, 0, 0, 0.10);
+  --border-strong: rgba(0, 0, 0, 0.16);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.06), 0 2px 4px rgba(0,0,0,0.04);
+  --shadow-lg: 0 8px 24px rgba(0,0,0,0.08), 0 4px 8px rgba(0,0,0,0.04);
+  --shadow-xl: 0 16px 48px rgba(0,0,0,0.10), 0 8px 16px rgba(0,0,0,0.06);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --tosi-terracotta: #B26967;
+  --tosi-navy: #1B283A;
+  --tosi-cream: #F6F0E6;
+  --text-primary: #0F1117;
+  --text-secondary: #4B5563;
+  --text-tertiary: #9CA3AF;
+  --text-accent: #B26967;
+}
+
+body {
+  background: linear-gradient(180deg, #FAFBFC 0%, #F5F7FA 100%);
+  background-attachment: fixed;
+  color: var(--text-primary);
+  font-family: 'FilsonSoft', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
