@@ -18,27 +18,21 @@ export default function LoginPage() {
         }}
       >
         {/* Logo */}
-        <div className="flex items-center gap-2.5 mb-8">
+        <div className="flex flex-col gap-1 mb-8">
           <div
-            className="w-8 h-8 rounded-lg flex items-center
-                       justify-center"
+            className="flex items-center justify-center rounded-xl p-3"
             style={{background: 'var(--tosi-navy)'}}
           >
-            <span className="font-display text-white text-sm font-bold">
-              T
-            </span>
+            <img
+              src="/tosi-logo-light.png"
+              alt="Tosi"
+              className="h-10 w-auto object-contain"
+            />
           </div>
-          <div>
-            <p className="font-display text-sm font-semibold
-                          tracking-wide"
-               style={{color: 'var(--text-primary)'}}>
-              TOSI
-            </p>
-            <p className="font-body text-xs"
-               style={{color: 'var(--text-tertiary)'}}>
-              Brand Asset Hub
-            </p>
-          </div>
+          <p className="font-body text-xs text-center"
+             style={{color: 'var(--text-tertiary)'}}>
+            Brand Asset Hub
+          </p>
         </div>
 
         {/* Heading */}

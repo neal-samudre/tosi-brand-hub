@@ -86,21 +86,16 @@ export function Sidebar() {
       {/* Logo */}
       <div className="px-4 py-5"
            style={{borderBottom: '1px solid rgba(255,255,255,0.06)'}}>
-        <div className="flex items-center gap-2.5">
-          <div
-            className="w-7 h-7 rounded-lg flex items-center justify-center flex-shrink-0"
-            style={{background: 'var(--tosi-terracotta)'}}
-          >
-            <span className="font-display text-white text-xs font-bold">T</span>
-          </div>
-          <div>
-            <p className="font-display text-white text-sm font-semibold
-                          tracking-wide leading-none">TOSI</p>
-            <p className="font-body text-xs leading-none mt-0.5"
-               style={{color: 'rgba(255,255,255,0.35)'}}>
-              Asset Hub
-            </p>
-          </div>
+        <div className="flex flex-col gap-1">
+          <img
+            src="/tosi-logo-light.png"
+            alt="Tosi"
+            className="h-8 w-auto object-contain object-left"
+          />
+          <p className="font-body text-xs"
+             style={{color: 'rgba(255,255,255,0.35)'}}>
+            Asset Hub
+          </p>
         </div>
       </div>
 
