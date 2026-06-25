@@ -20,7 +20,6 @@ export default function ProductPage() {
       data.children?.forEach((folder) => {
         files = [...files, ...(folder.files ?? [])];
       });
-      files = [...files, ...(data.files ?? [])];
     } else {
       // Match files by their tagged parent (topLevelFolderId)
       data.children?.forEach((folder) => {
@@ -81,6 +80,14 @@ export default function ProductPage() {
           }}
         />
       </div>
+
+      {search.trim() && (
+        <p className="font-body text-xs mt-2"
+           style={{color: 'var(--text-tertiary)'}}>
+          {displayedAssets.length} result{displayedAssets.length !== 1 ? 's' : ''}{' '}
+          for "{search}"
+        </p>
+      )}
 
       {data && (
         <div className="flex flex-wrap gap-2 mb-6">
