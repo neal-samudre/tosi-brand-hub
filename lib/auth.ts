@@ -18,6 +18,8 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
           prompt: 'consent',
         },
       },
+      checks: ['pkce'],
+      issuer: 'https://accounts.google.com',
     }),
   ],
   callbacks: {
