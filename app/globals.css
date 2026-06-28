@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Gelica';
-  src: url('/fonts/Gelica-Semibold.woff2') format('woff2');
+  src: url('/fonts/Gelica-SemiBold.otf') format('opentype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: 'FilsonSoft';
-  src: url('/fonts/FilsonSoft-Regular.woff2') format('woff2');
+  src: url('/fonts/FilsonSoftRegular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: 'FilsonSoft';
-  src: url('/fonts/FilsonSoft-Bold.woff2') format('woff2');
+  src: url('/fonts/FilsonSoft-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -28,7 +28,7 @@
 
 @font-face {
   font-family: 'FilsonSoft';
-  src: url('/fonts/FilsonSoft-Heavy.woff2') format('woff2');
+  src: url('/fonts/FilsonSoftHeavy.otf') format('opentype');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
